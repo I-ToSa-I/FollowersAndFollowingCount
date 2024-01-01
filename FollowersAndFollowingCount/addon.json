@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[DevCore Studios] Followers And Following Count",
+    "description": "",
+    "version_id": 1000000,
+    "version_string": "1.0.0",
+    "dev": "ToSa",
+    "dev_url": "https://zelenka.guru/tosa",
+    "faq_url": "https://zelenka.guru/tosa",
+    "support_url": "https://zelenka.guru/tosa",
+    "extra_urls": {
+        "Мой форум": "https://devcore.fun"
+    },
+    "require": [],
+    "icon": ""
+}

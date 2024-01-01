@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="member_view" modification_key="dcs_fafc_member_macros" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:macro template="member_macros" name="member_stat_pairs"
+								arg-user="{$user}"
+								arg-context="profile" />]]></find>
+    <replace><![CDATA[      <xf:macro template="member_macros" name="member_stat_pairs"
+								arg-user="{$user}"
+								arg-context="profile" />
+      <xf:macro template="dcs_fafc_member_macros" name="member_stat_pairs" arg-user="{$user}" arg-following="{$followingCount}" arg-followers="{$followersCount}"/>]]></replace>
+  </modification>
+</template_modifications>
